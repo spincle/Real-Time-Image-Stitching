@@ -1,0 +1,17 @@
+﻿Build started 7/3/2016 23:47:47.
+     1>Project "C:\Users\usera\Desktop\ImageStitching\VideoStitching\VideoStitching.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Moc'ing MainWindow.h...
+         系統找不到指定的路徑。
+         Moc'ing MarkerSplash.h...
+         系統找不到指定的路徑。
+         Uic'ing MainWindow.ui...
+         系統找不到指定的路徑。
+         Rcc'ing videostitching.qrc...
+         系統找不到指定的路徑。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets(172,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "C:\Users\usera\Desktop\ImageStitching\VideoStitching\VideoStitching.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

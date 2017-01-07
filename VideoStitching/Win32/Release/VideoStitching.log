@@ -1,0 +1,45 @@
+﻿Build started 8/3/2016 14:47:22.
+     1>Project "C:\Users\usera\Desktop\ImageStitching\VideoStitching\VideoStitching.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\OpenCV\include /IC:\Qt\Qt5.5.1\5.5\msvc2012\include /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtWidgets /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtANGLE /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtCore /Irelease /I"C:\Qt\Qt5.5.1\5.5\msvc2012\mkspecs\win32-msvc2012" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 GeneratedFiles\qrc_videostitching.cpp
+         qrc_videostitching.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\OpenCV\include /IC:\Qt\Qt5.5.1\5.5\msvc2012\include /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtWidgets /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtANGLE /IC:\Qt\Qt5.5.1\5.5\msvc2012\include\QtCore /Irelease /I"C:\Qt\Qt5.5.1\5.5\msvc2012\mkspecs\win32-msvc2012" /I.\GeneratedFiles /nologo /W3 /WX- /O2 /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_NO_DEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 MainWindow.cpp MarkerSplash.cpp Release\moc_MainWindow.cpp Release\moc_MarkerSplash.cpp Stitching.cpp main.cpp
+         MainWindow.cpp
+     1>..\OpenCV\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         MarkerSplash.cpp
+     1>..\OpenCV\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         moc_MainWindow.cpp
+     1>..\OpenCV\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         moc_MarkerSplash.cpp
+         Stitching.cpp
+     1>..\OpenCV\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/stitching/detail/motion_estimators.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         main.cpp
+     1>..\OpenCV\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>..\OpenCV\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\\VideoStitching.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2012\lib /LIBPATH:C:/qt/qt5.5.1_msvc2012/5.5/msvc2012/lib /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2012\lib C:\Qt\Qt5.5.1\5.5\msvc2012\lib\qtmain.lib shell32.lib C:\Qt\Qt5.5.1\5.5\msvc2012\lib\Qt5Core.lib C:\Qt\Qt5.5.1\5.5\msvc2012\lib\Qt5Widgets.lib C:\Qt\Qt5.5.1\5.5\msvc2012\lib\Qt5Gui.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\VideoStitching.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" Win32\Release\VideoStitching_resource.res
+         Win32\Release\qrc_videostitching.obj
+         Win32\Release\MainWindow.obj
+         Win32\Release\MarkerSplash.obj
+         Win32\Release\moc_MainWindow.obj
+         Win32\Release\moc_MarkerSplash.obj
+         Win32\Release\Stitching.obj
+         Win32\Release\main.obj
+         VideoStitching.vcxproj -> C:\Users\usera\Desktop\ImageStitching\VideoStitching\release\VideoStitching.exe
+     1>Done Building Project "C:\Users\usera\Desktop\ImageStitching\VideoStitching\VideoStitching.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.80

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Res/AppIcon.png</file>
+        <file>Res/Exit.png</file>
+        <file>Res/Open.png</file>
+        <file>Res/SnapShot.png</file>
+        <file>Res/Play.png</file>
+        <file>Res/Camera.png</file>
+        <file>Res/stop.png</file>
+        <file>Res/Splash.png</file>
+    </qresource>
+</RCC>
