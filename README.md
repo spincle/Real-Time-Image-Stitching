@@ -18,8 +18,6 @@ customFilter.h
 customFilter.m
 ```  
 
-### my contact email tomtomtongtong@gmail.com
-
 
 
 
